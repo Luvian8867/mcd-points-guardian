@@ -1,0 +1,27 @@
+# GIF 逐帧调试产物（--frames 生成），不入库
+assets/frames/
+
+# 凭证与本地配置：严禁提交
+.env
+.env.*
+*.local
+mcp.json
+.mcp.json
+secrets.json
+*token*.txt
+
+# 但保留脱敏示例
+!mcp-config.example.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
